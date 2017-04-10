@@ -1,22 +1,4 @@
-<a id="simple-menu" href="#sidr">Toggle menu</a>
- 
-<div id="sidr">
-     <!-- Your content -->
-     <ul>
-       <li><a href="#">List 1</a></li>
-       <li class="active"><a href="#">List 2</a></li>
-       <li><a href="#">List 3</a></li>
-     </ul>
- </div>
 
-<!--<div id="menu"> 
-  <ul> 
-    <li><a href="/">Home</a></li> 
-    <li><a href="/about">About</a></li> 
-    <li><a href="/signups/new">Contact</a></li> 
-  </ul> 
-  <img alt="Close" class="icon-close" src="https://stories-rails.herokuapp.com/assets/close-0c9147fa56a8cfd00e1f6b29e91458dc.svg" width="24px"> 
-</div>-->     
 
 <div class="home-main"> 
   <img alt="Open" class="icon-menu" src="https://stories-rails.herokuapp.com/assets/open-9688b19dacd0cc7d027490776ace74ff.svg" width="24px"> 
@@ -24,7 +6,7 @@
     <div class="row"> 
       <div class="content col-md-6 col-md-offset-6"> 
         <h1>Create and share Stories</h1> 
-        <p><a class="btn btn-primary" href="about">Learn more</a></p> 
+        <p><%= link_to "Learn More", "/about" %></a></p> 
       </div> 
     </div> 
   </div> 
@@ -46,12 +28,7 @@
 <div class="home-about"> 
   <div class="container"> 
     <h2>Discover Stories</h2> 
-    <p><a class="btn btn-primary" href="about">Learn more</a></p> 
+    <p><%= link_to "Learn More", "/about" %></a></p> 
   </div> 
 </div> 
 
-<div class="footer"> 
-  <div class="container"> 
-    <p>A Shutterbugg Project</p> 
-  </div> 
-</div> 

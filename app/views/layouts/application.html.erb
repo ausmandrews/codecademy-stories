@@ -14,9 +14,26 @@
 <%= csrf_meta_tags %>
 </head>
 <body>
+  
+<a id="simple-menu" href="#sidr">Toggle menu</a>
+ 
+<div id="sidr">
+     <!-- Your content -->
+     <ul>
+       <li><a href="#"><%= link_to "Home", "/" %></a></li>
+       <li class="active"><%= link_to 'About', "/about" %></li>
+       <li><a href="#">Contact</a></li>
+     </ul>
+ </div>  
 
 <%= yield %>
 
+<div class="footer"> 
+  <div class="container"> 
+    <p>A Shutterbugg Project</p> 
+  </div> 
+</div>   
+  
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
