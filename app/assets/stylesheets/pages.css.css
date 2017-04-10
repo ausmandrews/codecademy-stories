@@ -1,0 +1,26 @@
+.home-main {
+  background: url("https://lh6.googleusercontent.com/gn8QlltJAtpbZ2g8XGGqeIPeL0Px0RuaMwsgC6lGU4WEivAErPhUzld-IRRBHSM6z5uIE7mgluxb-AA=w2160-h1282-rw") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+}
+
+.home-secondary {
+  background: url("https://lh6.googleusercontent.com/NH6FfyPF5xP239kN99nwbuagfClf8scPiBQPnEE46CqWZzaarD6SLeWPQINYV4BRFfxcg3nMo7EN2N8=w2160-h1282-rw") no-repeat center center;
+  background-size: cover;
+  height: 500px;
+}
+
+h1, h2, p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#menu {
+  float: left;
+  width: 350px;
+  height: 100%;
+}
+
+#menu li {
+  background-color: #444;
+  border-bottom: 1px solid #888;
+}
